@@ -20,16 +20,19 @@ li {
   text-decoration: none;
 }
 li:hover {
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 9px 3px rgb(21 38 52);
 }
 li.active {
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
+  padding: 6px;
+  box-shadow: 1px 1px 9px 4px rgb(21 38 52);
 }
 li {
   margin: 10px;
   padding: 5px;
   margin-bottom: 0;
-  background-color: white;
+  background-color: rgb(227, 222, 222);
   border-radius: 4px;
 }
 .head {
@@ -52,12 +55,7 @@ footer {
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
 }
-.ft {
-  border: 1px solid rgb(255, 255, 255);
-  margin: 1%;
-  border-radius: 8px;
-  padding: 5px;
-}
+
 h4 {
   padding: 0;
   margin: 0;
@@ -90,7 +88,35 @@ hr {
   margin: 0;
   height: 100px;
 }
-a{
+a {
   text-decoration: none;
-  
+}
+img {
+  display: inline-block;
+}
+.links {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+.links:hover {
+  color: aqua;
+  height: max-content;
+}
+h2 {
+  margin: 0;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ft {
+  display: flex;
+  flex-direction: row;
+}
+nav{
+  position: sticky;
 }
